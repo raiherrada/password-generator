@@ -1,0 +1,134 @@
+/* CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code starts here */
+
+#password-generator-box{
+    width: 550px;
+    height: 550px;
+    background: #ECFDF5;
+    margin: auto;
+    justify-content: center;
+    color: 2B283A;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 80px
+}
+
+p{
+    font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #6B7280;
+}
+
+.highlight{
+    color: #10B981;
+}
+
+button{
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.separator {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+#generated-passwords{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap:90px;
+    margin-top: 40px;
+}
+
+#password-one, #password-two{
+    width: 300px;
+    height: 40px;
+    background: #273549;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+#password-one, #password-two {
+    cursor: pointer;
+}
+
+#password-one:hover, #password-two:hover {
+    background-color: #1f2a3a;
+}
+
+#copy-message {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #10B981;
+    font-size: 16px;
+}
